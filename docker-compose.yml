@@ -17,6 +17,8 @@ services:
     volumes:
       - './:/app-dir'
     command: bash -c 'tail -f /dev/null'
+    ports:
+      - '3000:3000'
 
 volumes:
   postgres_volume:

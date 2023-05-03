@@ -17,3 +17,6 @@ dev:
 
 shell:
 	docker compose exec -it app-server bash
+
+lint:
+	npm run lint
